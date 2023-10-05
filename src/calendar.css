@@ -1,0 +1,116 @@
+/* calendar.css */
+
+/* Style for the calendar container */
+.calendar-container {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Style for the calendar itself */
+  .calendar {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Adjust day and month labels */
+  .react-calendar__tile {
+    font-size: 14px;
+    padding: 5px;
+    transition: background-color 0.2s ease-in-out;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  /* Style for active and selected day */
+  .react-calendar__tile--active,
+  .react-calendar__tile--hasActive,
+  .react-calendar__tile--selected,
+  .react-calendar__tile--hasSelected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Hover style for day */
+  .react-calendar__tile--hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Adjust navigation buttons */
+  .react-calendar__navigation {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for navigation button labels */
+  .react-calendar__navigation__label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Hover style for navigation buttons */
+  .react-calendar__navigation__arrow {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .react-calendar__navigation__arrow:hover {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+  }
+  
+  /* Style for current day marker */
+  .react-calendar__tile--now {
+    border: 1px solid #4caf50;
+  }
+  
+  /* Style for weekday labels */
+  .react-calendar__month-view__weekdays__weekday {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for month label */
+  .react-calendar__navigation__label__labelText {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* calendar.css */
+
+/* Dark theme */
+.calendar-dark {
+    background-color:#111837;
+    color: #fff;
+  }
+  
+  /* Light theme */
+  .calendar-light {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+
+  .selected-date-marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.0rem;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  

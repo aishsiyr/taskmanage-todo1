@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.dark-mode {
+    background-color: #383838;
+    color: #ffffff; /* Set text color to white in dark mode */
+    /* Add more styles for dark mode as needed */
+  }
+  
