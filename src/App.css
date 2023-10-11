@@ -1,10 +1,32 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
 
-.dark-mode {
-    background-color: #383838;
-    color: #ffffff; /* Set text color to white in dark mode */
-    /* Add more styles for dark mode as needed */
-  }
-  
+/* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.toastify-dark {
+  background-color: #333;
+  color: #fff;
+}
+/* Define styles for small devices */
+@media (max-width: 639px) {
+.category-dropdown {
+  display: block;
+}
+.category-buttons {
+  display: none;
+}
+} 
+
+/* Define styles for larger devices */
+@media (min-width: 640px) {
+.category-dropdown {
+  display: none;
+}
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; /* Adjust the margin as needed */
+}
+}
