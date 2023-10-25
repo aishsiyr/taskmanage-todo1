@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./app.css";
+import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import Modal from "react-modal";
